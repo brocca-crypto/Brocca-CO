@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brocca CO | More Intelligence</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+header{
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:black;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#00d4ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#000,#111,#1a1a1a);
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+color:#bbb;
+}
+
+.button{
+display:inline-block;
+padding:15px 35px;
+background:#00d4ff;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:40px;
+}
+
+section{
+padding:80px 10%;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#181818;
+padding:30px;
+border-radius:15px;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#00d4ff;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:40px;
+color:#888;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">BROCCA CO</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Clothing</a>
+<a href="#">Records</a>
+<a href="#">AI Assistant</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>More Intelligence</h1>
+
+<p>Where Music Meets Fashion</p>
+
+<a class="button" href="#">Shop via WhatsApp</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 style="margin-bottom:40px;">Our Brands</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Brocca CO Clothing</h3>
+
+<p>Premium clothing collections including hoodies, tracksuits, T-shirts, golf shirts, dresses, heritage wear and more.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Brocca CO Records</h3>
+
+<p>Supporting independent artists and developing South African music talent.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Brocca AI</h3>
+
+<p>Your intelligent assistant ready to help with clothing enquiries, artist applications, orders, deliveries and customer support.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>About Brocca CO</h2>
+
+<br>
+
+<p>
+
+Established in 2017, Brocca CO is an independent South African creative brand combining fashion, music and technology.
+
+Our mission is to inspire confidence, empower creativity and support local talent.
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Brocca CO<br>
+
+More Intelligence
+
+</footer>
+
+</body>
+
+</html>
